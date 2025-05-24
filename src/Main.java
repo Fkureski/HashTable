@@ -1,5 +1,3 @@
-import utils.TxtReader;
-
 import java.util.List;
 
 public class Main {
