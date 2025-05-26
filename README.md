@@ -1,1 +1,1 @@
-# hashTables.HashTable
+# structures.hashTables.HashTable

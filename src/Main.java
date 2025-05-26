@@ -1,4 +1,4 @@
-import hashTables.*;
+import structures.hashTables.*;
 import structures.*;
 import utils.TxtReader;
 

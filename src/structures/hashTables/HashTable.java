@@ -1,4 +1,4 @@
-package hashTables;
+package structures.hashTables;
 
 import structures.ArrayList;
 
