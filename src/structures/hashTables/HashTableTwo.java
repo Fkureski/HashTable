@@ -1,4 +1,4 @@
-package hashTables;
+package structures.hashTables;
 
 public class HashTableTwo extends HashTable {
     @Override
