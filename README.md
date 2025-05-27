@@ -11,7 +11,7 @@ Este é um programa simples e que tem como propósito mensurar a performance de 
 ## Estrutura de código
 
 ### Função Hash (Length)
-A função hash calcula o índice de armazenamento da chave a partir do resto da divisão entre o tamanho dessa chave – tipo string – e a capacidade da tabela hash (32).
+A função hash calcula o índice de armazenamento da chave a partir do comprimento da chave (quantidade de caracteres), aplicando o módulo pela capacidade da tabela hash (32).
 
 ```java
 @Override
@@ -21,7 +21,7 @@ protected int hash(String chave) {
 ```
 
 ### Função Hash (ASCII)
-A função hash calcula o índice de armazenamento da chave a partir do resto da divisão entre a soma dos valores inteiros (códigos ASCII/Unicode) de cada caractere da chave – tipo string – e a capacidade da tabela hash (32).
+A função hash calcula o índice de armazenamento da chave somando os códigos Unicode de cada caractere da chave (string) e aplicando o módulo pela capacidade da tabela hash (32).
 
 ```java
 @Override
