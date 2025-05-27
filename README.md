@@ -20,7 +20,7 @@ protected int hash(String chave) {
 }
 ```
 
-### Função Hash (ASCII)
+### Função Hash (Unicode)
 A função hash calcula o índice de armazenamento da chave somando os códigos Unicode de cada caractere da chave (string) e aplicando o módulo pela capacidade da tabela hash (32).
 
 ```java
