@@ -33,3 +33,9 @@ protected int hash (String chave) {
     return soma % capacidade;
 }
 ```
+
+## Entregáveis
+
+Projeto realizado por: Felipe Kureski e Tiago Prestes
+- Código fonte organizado conforme P.O.O
+- Relatório em PDF com os dados gerados no console, na pasta `relatorio`
